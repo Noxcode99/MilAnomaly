@@ -47,3 +47,4 @@ def train(nloader, aloader, model, batch_size, optimizer, viz, device):
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
+# update train.py
